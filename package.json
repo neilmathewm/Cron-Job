@@ -1,0 +1,16 @@
+{
+  "name": "crone-job-sample",
+  "version": "1.0.0",
+  "description": "sample cron job",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "neilmathewm@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-cron": "^1.2.0"
+  }
+}
